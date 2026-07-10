@@ -48,7 +48,7 @@ const blogPosts = [
     title: "Tuần 2: Nghệ thuật tìm kiếm thông tin trên mạng",
     date: "Tháng 3, 2025",
     excerpt:
-      "Tôi nhận ra mình đã tìm kiếm trên Google không hiệu quả suốt bao nhiêu năm. Các kỹ thuật Boolean và tìm kiếm nâng cao thực sự thay đổi cách tôi học...",
+      "Tôi nhận ra tôi đã tìm kiếm trên Google không hiệu quả suốt bao nhiêu năm. Các kỹ thuật Boolean và tìm kiếm nâng cao thực sự thay đổi cách tôi học...",
     tags: ["Thông tin số", "Tuần 2"],
   },
   {
@@ -192,7 +192,7 @@ export default function Portfolio() {
               <p className="text-[clamp(16px,1.3vw,22px)] font-normal leading-[1.7] text-primary">
                 Tôi là <strong>Vũ Thị Huyền Linh</strong>, sinh viên ngành{" "}
                 <strong>Ngôn ngữ Trung Quốc</strong>, ULIS-VNU. Bên cạnh niềm
-                đam mê với ngôn ngữ, mình thường dành thời gian cho những sở
+                đam mê với ngôn ngữ, tôi thường dành thời gian cho những sở
                 thích cá nhân như đọc sách, nghe nhạc và nấu ăn để cân bằng cuộc
                 sống. Hiện tại, tôi đang nỗ lực rèn luyện mỗi ngày để chinh phục
                 những cột mốc mới, hiện thực hóa ước mơ trở thành một giáo viên

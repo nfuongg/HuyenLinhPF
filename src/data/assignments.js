@@ -541,7 +541,7 @@ export const assignments = [
             ],
             [
               "Sửa lỗi chính tả, lỗi ngữ pháp và tối ưu định dạng",
-              "Nộp trực tiếp sản phẩm của AI như là tự mình suy nghĩ viết ra",
+              "Nộp trực tiếp sản phẩm của AI như là tự tôi suy nghĩ viết ra",
             ],
             [
               "Hỗ trợ lập dàn ý, xây dựng khung cấu trúc bài luận",
