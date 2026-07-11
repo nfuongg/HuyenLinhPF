@@ -307,7 +307,7 @@ export const assignments = [
           {
             step: "02",
             title: "Cung cấp bối cảnh & mục tiêu",
-            desc: "Đưa ra tình huống cụ thể (Ví dụ: '...tôi cần chuẩn bị bài thuyết trình 5 phút cho sinh viên...').",
+            desc: "Đưa ra tình huống cụ thể (Ví dụ: '...em cần chuẩn bị bài thuyết trình 5 phút cho sinh viên...').",
           },
           {
             step: "03",
@@ -500,7 +500,7 @@ export const assignments = [
       {
         title: "Chính sách học thuật & Bối cảnh thực hành",
         content:
-          "Nghiên cứu chính sách cốt lõi của Trường ĐH Ngoại ngữ: Sinh viên được phép sử dụng AI như một công cụ hỗ trợ tư duy (tổng hợp, gợi ý ý tưởng, sửa lỗi ngữ pháp) nhưng tuyệt đối không được dùng để thay thế hoàn toàn tư duy cá nhân. Mọi sản phẩm có sự hỗ trợ của AI phải được khai báo minh bạch. Từ bối cảnh đó, tôi đã ứng dụng AI vào bài tập nhóm môn 'Cơ sở văn hóa Việt Nam' với chủ đề 'Bảo tồn tri thức dân gian và văn hóa ẩm thực truyền thống tại làng gốm Bát Tràng'.",
+          "Nghiên cứu chính sách cốt lõi của Trường ĐH Ngoại ngữ: Sinh viên được phép sử dụng AI như một công cụ hỗ trợ tư duy (tổng hợp, gợi ý ý tưởng, sửa lỗi ngữ pháp) nhưng tuyệt đối không được dùng để thay thế hoàn toàn tư duy cá nhân. Mọi sản phẩm có sự hỗ trợ của AI phải được khai báo minh bạch. Từ bối cảnh đó, em đã ứng dụng AI vào bài tập nhóm môn 'Cơ sở văn hóa Việt Nam' với chủ đề 'Bảo tồn tri thức dân gian và văn hóa ẩm thực truyền thống tại làng gốm Bát Tràng'.",
       },
       {
         title: "Quy trình 4 bước xử lý đầu ra AI hợp lý",
@@ -541,7 +541,7 @@ export const assignments = [
             ],
             [
               "Sửa lỗi chính tả, lỗi ngữ pháp và tối ưu định dạng",
-              "Nộp trực tiếp sản phẩm của AI như là tự tôi suy nghĩ viết ra",
+              "Nộp trực tiếp sản phẩm của AI như là tự em suy nghĩ viết ra",
             ],
             [
               "Hỗ trợ lập dàn ý, xây dựng khung cấu trúc bài luận",

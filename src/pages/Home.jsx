@@ -14,10 +14,10 @@ const images = {
   hero: assetPath("hl3.jpg"),
   aboutFeature: assetPath("hl2.jpg"),
   aboutPortrait: assetPath("hl1.jpg"),
-  setupMain: assetPath("Group-19142@2x.png"),
-  setupLaptop: assetPath("Rectangle-29441@2x.png"),
-  setupCreative: assetPath("Rectangle-26603@2x.png"),
-  setupWorkspace: assetPath("Rectangle-2944@2x.png"),
+  setupMain: assetPath("hlh1.jpg"),
+  setupLaptop: assetPath("hlh2.jpg"),
+  setupCreative: assetPath("hlh3.jpg"),
+  setupWorkspace: assetPath("hlh4.jpg"),
 };
 
 const skillIconByName = {
@@ -41,21 +41,21 @@ const blogPosts = [
     title: "Tuần 1: Khám phá thế giới phần cứng máy tính",
     date: "Tháng 3, 2025",
     excerpt:
-      "Lần đầu tiên tôi thực sự hiểu được bên trong một chiếc máy tính có những gì. Bài học về phần cứng mở ra cho tôi một góc nhìn hoàn toàn mới...",
+      "Lần đầu tiên em thực sự hiểu được bên trong một chiếc máy tính có những gì. Bài học về phần cứng mở ra cho em một góc nhìn hoàn toàn mới...",
     tags: ["Phần cứng", "Tuần 1"],
   },
   {
     title: "Tuần 2: Nghệ thuật tìm kiếm thông tin trên mạng",
     date: "Tháng 3, 2025",
     excerpt:
-      "Tôi nhận ra tôi đã tìm kiếm trên Google không hiệu quả suốt bao nhiêu năm. Các kỹ thuật Boolean và tìm kiếm nâng cao thực sự thay đổi cách tôi học...",
+      "Em nhận ra em đã tìm kiếm trên Google không hiệu quả suốt bao nhiêu năm. Các kỹ thuật Boolean và tìm kiếm nâng cao thực sự thay đổi cách em học...",
     tags: ["Thông tin số", "Tuần 2"],
   },
   {
     title: "Tuần 3: AI không còn xa lạ nữa",
     date: "Tháng 4, 2025",
     excerpt:
-      "ChatGPT, Gemini, hay các mô hình học máy — giờ tôi đã hiểu chúng hoạt động như thế nào và tại sao AI lại đang thay đổi mọi thứ xung quanh chúng ta...",
+      "ChatGPT, Gemini, hay các mô hình học máy — giờ em đã hiểu chúng hoạt động như thế nào và tại sao AI lại đang thay đổi mọi thứ xung quanh chúng ta...",
     tags: ["AI", "Tuần 3"],
   },
 ];
@@ -190,18 +190,18 @@ export default function Portfolio() {
                 Xin chào! 👋
               </p>
               <p className="text-[clamp(16px,1.3vw,22px)] font-normal leading-[1.7] text-primary">
-                Tôi là <strong>Vũ Thị Huyền Linh</strong>, sinh viên ngành{" "}
+                Em là <strong>Vũ Thị Huyền Linh</strong>, sinh viên ngành{" "}
                 <strong>Ngôn ngữ Trung Quốc</strong>, ULIS-VNU. Bên cạnh niềm
-                đam mê với ngôn ngữ, tôi thường dành thời gian cho những sở
-                thích cá nhân như đọc sách, nghe nhạc và nấu ăn để cân bằng cuộc
-                sống. Hiện tại, tôi đang nỗ lực rèn luyện mỗi ngày để chinh phục
-                những cột mốc mới, hiện thực hóa ước mơ trở thành một giáo viên
-                hoặc biên dịch viên trong tương lai. Đối với tôi, mỗi ngày trôi
-                qua đều là một cơ hội tuyệt vời để học hỏi, trải nghiệm và không
+                đam mê với ngôn ngữ, em thường dành thời gian cho những sở thích
+                cá nhân như đọc sách, nghe nhạc và nấu ăn để cân bằng cuộc sống.
+                Hiện tại, em đang nỗ lực rèn luyện mỗi ngày để chinh phục những
+                cột mốc mới, hiện thực hóa ước mơ trở thành một giáo viên hoặc
+                biên dịch viên trong tương lai. Đối với em, mỗi ngày trôi qua
+                đều là một cơ hội tuyệt vời để học hỏi, trải nghiệm và không
                 ngừng hoàn thiện bản thân.
               </p>
               <p className="text-[clamp(16px,1.3vw,22px)] font-normal leading-[1.7] text-primary">
-                Sở thích của tôi bao gồm: đọc sách, nghe nhạc, khám phá các xu
+                Sở thích của em bao gồm: đọc sách, nghe nhạc, khám phá các xu
                 hướng công nghệ mới, nấu ăn và chụp ảnh.
               </p>
             </motion.div>
@@ -317,7 +317,7 @@ export default function Portfolio() {
           viewport={{ once: true }}
           className="text-[clamp(60px,11.77vw,226px)] font-extrabold leading-[1.1] md:leading-[1.3] max-w-[1819px]"
         >
-          Các <span className="text-secondary">kỹ năng</span> tôi đã phát triển
+          Các <span className="text-secondary">kỹ năng</span> em đã phát triển
         </motion.p>
 
         <div className="mt-[clamp(25px,5.2vw,100px)] relative flex flex-col xl:flex-row items-start justify-between">
@@ -358,13 +358,11 @@ export default function Portfolio() {
                   Nhập môn Công nghệ số & Ứng dụng Trí tuệ nhân tạo
                 </p>
                 <p className="text-[clamp(16px,1.5vw,26px)] font-normal leading-[1.6] text-primary">
-                  Môn học này đã trang bị cho tôi hành trang vững chắc của một
-                  công dân số. Tôi không chỉ thành thạo các kỹ năng cốt lõi như
+                  Môn học này đã trang bị cho em hành trang vững chắc của một
+                  công dân số. Em không chỉ thành thạo các kỹ năng cốt lõi như
                   khai thác thông tin, tiếp cận trí tuệ nhân tạo đến sáng tạo
                   nội dung và hợp tác trực tuyến, mà còn nhận thức rõ tầm quan
-                  trọng của an toàn thông tin và liêm chính học thuật. Đây chính
-                  là bệ phóng giúp tôi phát triển bền vững trong kỷ nguyên công
-                  nghệ.
+                  trọng của an toàn thông tin và liêm chính học thuật.
                 </p>
               </div>
             </motion.div>
@@ -475,10 +473,10 @@ export default function Portfolio() {
               </h2>
               <div className="bg-secondary w-[20px] md:w-[33px] min-h-[20px] md:h-[33px] rounded-full" />
             </div>
-            <p className="text-[clamp(25px,2.34vw,45px)] font-extrabold leading-[1.26]">
+            <p className="text-[clamp(25px,2.34vw,45px)] font-extrabold leading-[1.26] text-foreground">
               CÔNG CỤ VÀ THIẾT BỊ CỦA TÔI
             </p>
-            <p className="text-[clamp(16px,1.5vw,24px)] font-normal leading-[1.6] text-[#0D2B45]/70">
+            <p className="text-[clamp(16px,1.5vw,24px)] font-normal leading-[1.6] text-foreground/70">
               Những công cụ tôi sử dụng hàng ngày trong học tập và làm việc
             </p>
           </div>
@@ -487,21 +485,21 @@ export default function Portfolio() {
             {[
               {
                 i1: images.setupLaptop,
-                i2: images.setupCreative,
                 title: "Máy tính / Laptop",
                 sub: "Thiết bị học tập chính",
+                inset: true,
               },
               {
                 i1: images.setupCreative,
-                i2: images.setupWorkspace,
-                title: "VS Code / Figma",
-                sub: "Công cụ thiết kế & lập trình",
+                title: "Google Scholar",
+                sub: "Công cụ nghiên cứu & học thuật",
+                inset: false,
               },
               {
                 i1: images.setupWorkspace,
-                i2: images.setupLaptop,
                 title: "Google Workspace",
                 sub: "Làm việc và cộng tác nhóm",
+                inset: true,
               },
             ].map((item, i) => (
               <motion.div
@@ -510,13 +508,15 @@ export default function Portfolio() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
-                className="flex flex-col sm:flex-row items-start sm:items-center gap-5 p-5 bg-accent rounded-[20px] w-full"
+                className="flex flex-col sm:flex-row items-start sm:items-center gap-5 p-5 bg-accent rounded-[20px] w-full shadow-[inset_0_0_0_1px_hsl(var(--border))]"
               >
-                <img
-                  src={item.i1}
-                  className="w-full sm:w-[226px] h-[150px] sm:h-full object-cover rounded-[20px]"
-                  alt="Setup Item"
-                />
+                <div className="w-full sm:w-[226px] h-[150px] shrink-0 rounded-[20px] bg-accent flex items-center justify-center overflow-hidden">
+                  <img
+                    src={item.i1}
+                    className={`object-cover rounded-[14px] ${item.inset ? "w-[88%] h-[88%]" : "w-full h-full"}`}
+                    alt="Setup Item"
+                  />
+                </div>
                 <div className="flex flex-col gap-3 items-start w-full">
                   <p className="text-[clamp(19px,1.82vw,30px)] font-extrabold text-primary">
                     {item.title}
@@ -540,7 +540,7 @@ export default function Portfolio() {
           >
             <img
               src={images.setupMain}
-              className="w-full h-full object-cover rounded-[20px] shadow-[inset_0_0_0_8px_#0D2B45] md:shadow-[inset_0_0_0_18px_#0D2B45]"
+              className="w-full h-full object-cover rounded-[20px] shadow-[inset_0_0_0_8px_hsl(var(--border))] md:shadow-[inset_0_0_0_18px_hsl(var(--border))]"
               alt="Không gian làm việc"
             />
           </motion.div>
@@ -561,7 +561,7 @@ export default function Portfolio() {
               >
                 <img
                   src={src}
-                  className="w-full aspect-[270/164] object-cover rounded-[20px] shadow-[inset_0_0_0_4px_#0D2B45]"
+                  className="w-full aspect-[270/164] object-cover rounded-[20px] shadow-[inset_0_0_0_4px_hsl(var(--border))]"
                   alt="Chi tiết thiết lập"
                 />
               </motion.div>
@@ -591,9 +591,8 @@ export default function Portfolio() {
               ngày
             </p>
             <p className="text-[clamp(16px,1.5vw,24px)] font-light leading-[1.7] text-[#0D2B45]/70">
-              Đây là nơi tôi ghi lại những suy nghĩ, khám phá và bài học từ mỗi
-              tuần học. Nhật ký giúp tôi nhìn lại hành trình và tiếp tục tiến
-              bộ.
+              Đây là nơi em ghi lại những suy nghĩ, khám phá và bài học từ mỗi
+              tuần học. Nhật ký giúp em nhìn lại hành trình và tiếp tục tiến bộ.
             </p>
           </div>
 
@@ -661,14 +660,14 @@ export default function Portfolio() {
               💭 Trải nghiệm & cảm nhận
             </p>
             <p className="text-[clamp(16px,1.4vw,24px)] font-normal leading-[1.8] text-primary/90">
-              Hành trình xây dựng portfolio này là một cơ hội tuyệt vời để tôi
-              hệ thống hóa lại toàn bộ trải nghiệm của bản thân,từ kiến thức về
+              Hành trình xây dựng portfolio này là một cơ hội tuyệt vời để em hệ
+              thống hóa lại toàn bộ trải nghiệm của bản thân,từ kiến thức về
               phần cứng máy tính cho đến các kỹ năng sáng tạo nội dung số. Điều
-              tôi nhận ra là kỹ năng số không chỉ là biết sử dụng các công cụ,
-              mà còn là tư duy về cách công nghệ ảnh hưởng đến cuộc sống và cách
-              chúng ta học tập. Tôi nhận ra kỹ năng số không chỉ là công cụ hỗ
+              em nhận ra là kỹ năng số không chỉ là biết sử dụng các công cụ, mà
+              còn là tư duy về cách công nghệ ảnh hưởng đến cuộc sống và cách
+              chúng ta học tập. Em nhận ra kỹ năng số không chỉ là công cụ hỗ
               trợ học tập hiệu quả, mà còn là phương tiện mạnh mẽ giúp một người
-              học ngoại ngữ như tôi mở ra những góc nhìn mới, sẵn sàng hội nhập
+              học ngoại ngữ như em mở ra những góc nhìn mới, sẵn sàng hội nhập
               nhưng vẫn giữ trọn bản sắc riêng.
             </p>
           </motion.div>
@@ -718,7 +717,7 @@ export default function Portfolio() {
               {[
                 {
                   emoji: "🤖",
-                  text: "Bài học về AI mở ra cho tôi cái nhìn hoàn toàn mới về tương lai của công nghệ và cách học tập.",
+                  text: "Bài học về AI mở ra cho em cái nhìn hoàn toàn mới về tương lai của công nghệ và cách học tập.",
                 },
                 {
                   emoji: "🛡️",
@@ -726,7 +725,7 @@ export default function Portfolio() {
                 },
                 {
                   emoji: "🎨",
-                  text: "Phần sáng tạo nội dung giúp tôi phát triển khả năng biểu đạt ý tưởng qua các phương tiện kỹ thuật số.",
+                  text: "Phần sáng tạo nội dung giúp em phát triển khả năng biểu đạt ý tưởng qua các phương tiện kỹ thuật số.",
                 },
               ].map((item, i) => (
                 <div
@@ -761,7 +760,7 @@ export default function Portfolio() {
                 },
                 {
                   emoji: "🌐",
-                  text: "Xây dựng một website portfolio từ đầu — điều tôi chưa từng làm trước đây.",
+                  text: "Xây dựng một website portfolio từ đầu — điều em chưa từng làm trước đây.",
                 },
                 {
                   emoji: "📖",
@@ -805,11 +804,11 @@ export default function Portfolio() {
             className="flex flex-col gap-[clamp(16px,2.1vw,40px)] md:gap-[clamp(16px,3.1vw,60px)]"
           >
             <p className="text-[clamp(32px,3.54vw,68px)] font-extrabold leading-[1.1]">
-              Có câu hỏi hoặc muốn kết nối? Hãy liên hệ với tôi!
+              Có câu hỏi hoặc muốn kết nối? Hãy liên hệ với em!
             </p>
             <p className="text-[clamp(18px,1.93vw,37px)] font-light leading-[1.4]">
-              Tôi luôn sẵn sàng lắng nghe và trao đổi. Đừng ngần ngại gửi tin
-              nhắn cho tôi nhé.
+              Em luôn sẵn sàng lắng nghe và trao đổi. Đừng ngần ngại gửi tin
+              nhắn cho em nhé.
             </p>
 
             <form
