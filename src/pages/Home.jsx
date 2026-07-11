@@ -194,10 +194,10 @@ export default function Portfolio() {
                 <strong>Ngôn ngữ Trung Quốc</strong>, ULIS-VNU. Bên cạnh niềm
                 đam mê với ngôn ngữ, em thường dành thời gian cho những sở thích
                 cá nhân như đọc sách, nghe nhạc và nấu ăn để cân bằng cuộc sống.
-                Hiện tại, em đang nỗ lưc mỗi ngày để hiện thực hoá ước mơ trở thành một giáo viên hoặc
-                biên dịch viên trong tương lai. Đối với em, mỗi ngày trôi qua
-                đều là một cơ hội tuyệt vời để học hỏi, trải nghiệm và không
-                ngừng hoàn thiện bản thân.
+                Hiện tại, em đang nỗ lưc mỗi ngày để hiện thực hoá ước mơ trở
+                thành một giáo viên hoặc biên dịch viên trong tương lai. Đối với
+                em, mỗi ngày trôi qua đều là một cơ hội tuyệt vời để học hỏi,
+                trải nghiệm và không ngừng hoàn thiện bản thân.
               </p>
               <p className="text-[clamp(16px,1.3vw,22px)] font-normal leading-[1.7] text-primary">
                 Sở thích của em bao gồm: đọc sách, nghe nhạc, khám phá các xu
@@ -923,22 +923,25 @@ export default function Portfolio() {
       </section>
 
       {/* Footer */}
-      <footer className="mt-[clamp(38px,7.8vw,150px)] mx-4 md:mx-12 mb-12 flex flex-col lg:flex-row justify-between items-center gap-10 z-10 relative border-t border-[#0D2B45]/20 pt-10">
-        <div className="flex flex-row items-center gap-[clamp(16px,2.1vw,40px)] md:gap-[clamp(19px,4.9vw,95px)]">
-          <p className="text-[clamp(20px,2.34vw,45px)] font-extralight">©</p>
-          <p className="text-[clamp(20px,2.34vw,38px)] font-light">2026</p>
-          <p className="text-[clamp(20px,2.34vw,38px)] font-extrabold">
-            Huyền Linh
-          </p>
+      <footer className="mt-[clamp(38px,7.8vw,150px)] mx-4 md:mx-12 mb-12 flex flex-col lg:flex-row lg:flex-nowrap justify-between items-center gap-6 lg:gap-10 z-10 relative border-t border-[#0D2B45]/20 pt-10">
+        <div className="flex flex-row items-center gap-[clamp(12px,2.1vw,32px)] shrink-0 whitespace-nowrap">
+          <p className="text-[clamp(18px,1.8vw,32px)] font-extralight">©</p>
+          <p className="text-[clamp(18px,1.8vw,30px)] font-light">2026</p>
         </div>
-        <p className="text-[clamp(16px,2.34vw,38px)] font-normal text-center">
-          Nhập môn Công nghệ số & TTNT{" "}
+
+        <p className="text-[clamp(18px,1.8vw,30px)] font-extrabold shrink-0 whitespace-nowrap">
+          Huyền Linh
         </p>
+
+        <p className="text-[clamp(14px,1.4vw,38px)] font-normal text-center whitespace-nowrap">
+          Nhập môn Công nghệ số & TTNT
+        </p>
+
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="flex flex-row items-center gap-2.5 hover:text-secondary transition-colors group"
+          className="flex flex-row items-center gap-2.5 hover:text-secondary transition-colors group shrink-0 whitespace-nowrap"
         >
-          <p className="text-[clamp(18px,2.34vw,38px)] font-extrabold">
+          <p className="text-[clamp(16px,1.6vw,24px)] font-extrabold">
             LÊN ĐẦU TRANG
           </p>
         </button>
