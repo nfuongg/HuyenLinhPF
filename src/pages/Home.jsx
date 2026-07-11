@@ -474,10 +474,10 @@ export default function Portfolio() {
               <div className="bg-secondary w-[20px] md:w-[33px] min-h-[20px] md:h-[33px] rounded-full" />
             </div>
             <p className="text-[clamp(25px,2.34vw,45px)] font-extrabold leading-[1.26] text-foreground">
-              CÔNG CỤ VÀ THIẾT BỊ CỦA TÔI
+              CÔNG CỤ VÀ THIẾT BỊ CỦA EM
             </p>
             <p className="text-[clamp(16px,1.5vw,24px)] font-normal leading-[1.6] text-foreground/70">
-              Những công cụ tôi sử dụng hàng ngày trong học tập và làm việc
+              Những công cụ em sử dụng hàng ngày trong học tập và làm việc
             </p>
           </div>
 
