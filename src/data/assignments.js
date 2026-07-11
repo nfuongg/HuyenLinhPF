@@ -111,7 +111,7 @@ export const assignments = [
     icon: "📚",
     tags: ["Nghiên cứu", "Đánh giá tài liệu", "Tiếng Trung", "AI"],
     pdfLink:
-      "https://drive.google.com/file/d/1jLsLrgKOyW93vkp1ShXlI_vDCDpXDbxY/view?usp=drive_link",
+      "https://drive.google.com/file/d/1q5ujkC_C_w2DXlsHZpUcKsB1XO_o7FCY/view?usp=sharing",
     goal: "Tìm kiếm, phân loại và đánh giá các nguồn học liệu học thuật uy tín về tác động của công nghệ số và AI đối với việc học tiếng Trung Quốc.",
     summary:
       "Báo cáo thực hành kỹ năng tìm kiếm tài liệu trên các cơ sở dữ liệu lớn (Google Scholar, VNU-LIC) với bộ từ khóa đa ngôn ngữ. Phân tích và thẩm định độ tin cậy của 10 nguồn thông tin từ bài báo khoa học, sách chuyên khảo đến tài liệu tổ chức.",

@@ -17,7 +17,9 @@ export default function AssignmentDetail() {
         <div className="text-center">
           <p className="text-6xl mb-4">🔍</p>
           <p className="text-2xl font-bold mb-4">Không tìm thấy bài học</p>
-          <Link to="/" className="text-secondary underline">Quay về trang chủ</Link>
+          <Link to="/" className="text-secondary underline">
+            Quay về trang chủ
+          </Link>
         </div>
       </main>
     );
@@ -35,7 +37,9 @@ export default function AssignmentDetail() {
       {/* Navigation */}
       <nav className="sticky top-6 z-50 mx-4 md:mx-[clamp(16px,2vw,38px)] flex flex-row justify-between items-center p-[15px] rounded-[16px] shadow-[inset_0_0_0_1px_#0D2B45] bg-background/80 backdrop-blur-md">
         <div className="flex flex-row items-center gap-[18px]">
-          <p className="text-[clamp(20px,2.4vw,46px)] font-extrabold leading-none">PORTFOLIO</p>
+          <p className="text-[clamp(20px,2.4vw,46px)] font-extrabold leading-none">
+            PORTFOLIO
+          </p>
           <div className="bg-secondary w-5 h-5 rounded-full" />
         </div>
         <Link
@@ -43,7 +47,9 @@ export default function AssignmentDetail() {
           className="flex flex-row items-center gap-2 p-2.5 px-5 bg-secondary rounded-[57px] hover:scale-105 transition-transform"
         >
           <ArrowLeft className="w-4 h-4 text-primary" />
-          <span className="text-[clamp(14px,1.25vw,22px)] font-bold text-primary">Quay lại</span>
+          <span className="text-[clamp(14px,1.25vw,22px)] font-bold text-primary">
+            Quay lại
+          </span>
         </Link>
       </nav>
 
@@ -55,7 +61,9 @@ export default function AssignmentDetail() {
         className="mt-[clamp(25px,5vw,80px)] mx-4 md:mx-10 relative z-10"
       >
         <div className="rounded-[20px] bg-secondary p-8 md:p-[clamp(24px,4vw,80px)]">
-          <p className="text-[13px] font-bold text-primary/70 uppercase tracking-widest mb-3">{assignment.baiTap}</p>
+          <p className="text-[13px] font-bold text-primary/70 uppercase tracking-widest mb-3">
+            {assignment.baiTap}
+          </p>
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div>
               <p className="text-[clamp(32px,5vw,96px)] font-extrabold text-primary leading-none mb-4">
@@ -63,7 +71,10 @@ export default function AssignmentDetail() {
               </p>
               <div className="flex flex-wrap gap-2">
                 {assignment.tags.map((tag, i) => (
-                  <span key={i} className="py-1 px-3 rounded-full bg-primary/10 text-primary text-[13px] font-bold border border-primary/20">
+                  <span
+                    key={i}
+                    className="py-1 px-3 rounded-full bg-primary/10 text-primary text-[13px] font-bold border border-primary/20"
+                  >
                     {tag}
                   </span>
                 ))}
@@ -90,8 +101,12 @@ export default function AssignmentDetail() {
         className="mt-[clamp(30px,5vw,80px)] mx-4 md:mx-10 relative z-10"
       >
         <div className="rounded-[20px] shadow-[inset_0_0_0_1px_#0D2B45] p-8 md:p-12 bg-[#0D2B45]/5">
-          <p className="text-secondary font-bold text-[13px] uppercase tracking-widest mb-3">🎯 Mục tiêu bài học</p>
-          <p className="text-[clamp(18px,2vw,32px)] font-light leading-[1.7]">{assignment.goal}</p>
+          <p className="text-secondary font-bold text-[13px] uppercase tracking-widest mb-3">
+            🎯 Mục tiêu bài học
+          </p>
+          <p className="text-[clamp(18px,2vw,32px)] font-light leading-[1.7]">
+            {assignment.goal}
+          </p>
         </div>
       </motion.section>
 
@@ -109,25 +124,29 @@ export default function AssignmentDetail() {
             {/* Section header */}
             <div className="flex flex-row items-center gap-4">
               <div className="w-2 h-2 bg-secondary rounded-full shrink-0" />
-              <h2 className="text-[clamp(20px,2vw,36px)] font-extrabold text-secondary">{section.title}</h2>
+              <h2 className="text-[clamp(20px,2vw,36px)] font-extrabold text-secondary">
+                {section.title}
+              </h2>
             </div>
 
             {/* Content */}
             {section.content && (
               <div className="rounded-[20px] shadow-[inset_0_0_0_1px_#0D2B45] p-8 bg-[#0D2B45]/5">
-                <p className="text-[clamp(15px,1.3vw,22px)] font-light leading-[1.8]">{section.content}</p>
+                <p className="text-[clamp(15px,1.3vw,22px)] font-light leading-[1.8]">
+                  {section.content}
+                </p>
               </div>
             )}
 
             {section.table && (
-              <div className="overflow-x-auto rounded-2xl border border-pink-200">
+              <div className="overflow-x-auto rounded-2xl border border-secondary/30">
                 <table className="min-w-full text-sm border-collapse">
                   <thead>
-                    <tr className="bg-pink-200/70">
+                    <tr className="bg-secondary/20">
                       {section.table.headers.map((head, i) => (
                         <th
                           key={i}
-                          className="px-4 py-3 text-left font-semibold text-stone-800 whitespace-nowrap border-b border-pink-300"
+                          className="px-4 py-3 text-left font-semibold text-primary whitespace-nowrap border-b border-secondary/30"
                         >
                           {head}
                         </th>
@@ -138,12 +157,14 @@ export default function AssignmentDetail() {
                     {section.table.rows.map((row, rIdx) => (
                       <tr
                         key={rIdx}
-                        className={rIdx % 2 === 0 ? "bg-pink-50" : "bg-white"}
+                        className={
+                          rIdx % 2 === 0 ? "bg-muted/50" : "bg-background"
+                        }
                       >
                         {row.map((cell, cIdx) => (
                           <td
                             key={cIdx}
-                            className="px-4 py-3 align-top text-stone-700 border-b border-pink-100 min-w-[160px]"
+                            className="px-4 py-3 align-top text-primary border-b border-secondary/20 min-w-[160px]"
                           >
                             {cell}
                           </td>
@@ -167,8 +188,12 @@ export default function AssignmentDetail() {
                       {s.step}
                     </div>
                     <div className="flex flex-col gap-1">
-                      <p className="font-bold text-[clamp(15px,1.2vw,20px)]">{s.title}</p>
-                      <p className="text-[clamp(13px,1vw,16px)] font-light leading-[1.6] text-[#0D2B45]/70">{s.desc}</p>
+                      <p className="font-bold text-[clamp(15px,1.2vw,20px)]">
+                        {s.title}
+                      </p>
+                      <p className="text-[clamp(13px,1vw,16px)] font-light leading-[1.6] text-[#0D2B45]/70">
+                        {s.desc}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -184,7 +209,9 @@ export default function AssignmentDetail() {
                     className="flex flex-row items-start gap-4 p-5 rounded-[14px] bg-[#0D2B45]/5 shadow-[inset_0_0_0_1px_#0D2B45]"
                   >
                     <span className="text-2xl shrink-0">{h.emoji}</span>
-                    <p className="text-[clamp(14px,1.1vw,18px)] font-light leading-[1.6]">{h.text}</p>
+                    <p className="text-[clamp(14px,1.1vw,18px)] font-light leading-[1.6]">
+                      {h.text}
+                    </p>
                   </div>
                 ))}
               </div>

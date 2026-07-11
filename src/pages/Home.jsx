@@ -194,8 +194,7 @@ export default function Portfolio() {
                 <strong>Ngôn ngữ Trung Quốc</strong>, ULIS-VNU. Bên cạnh niềm
                 đam mê với ngôn ngữ, em thường dành thời gian cho những sở thích
                 cá nhân như đọc sách, nghe nhạc và nấu ăn để cân bằng cuộc sống.
-                Hiện tại, em đang nỗ lực rèn luyện mỗi ngày để chinh phục những
-                cột mốc mới, hiện thực hóa ước mơ trở thành một giáo viên hoặc
+                Hiện tại, em đang nỗ lưc mỗi ngày để hiện thực hoá ước mơ trở thành một giáo viên hoặc
                 biên dịch viên trong tương lai. Đối với em, mỗi ngày trôi qua
                 đều là một cơ hội tuyệt vời để học hỏi, trải nghiệm và không
                 ngừng hoàn thiện bản thân.
