@@ -926,19 +926,19 @@ export default function Portfolio() {
       <footer className="mt-[clamp(38px,7.8vw,150px)] mx-4 md:mx-12 mb-12 flex flex-col lg:flex-row justify-between items-center gap-10 z-10 relative border-t border-[#0D2B45]/20 pt-10">
         <div className="flex flex-row items-center gap-[clamp(16px,2.1vw,40px)] md:gap-[clamp(19px,4.9vw,95px)]">
           <p className="text-[clamp(20px,2.34vw,45px)] font-extralight">©</p>
-          <p className="text-[clamp(20px,2.34vw,45px)] font-light">2026</p>
-          <p className="text-[clamp(20px,2.34vw,45px)] font-extrabold">
+          <p className="text-[clamp(20px,2.34vw,38px)] font-light">2026</p>
+          <p className="text-[clamp(20px,2.34vw,38px)] font-extrabold">
             Huyền Linh
           </p>
         </div>
-        <p className="text-[clamp(16px,2.34vw,45px)] font-normal text-center">
+        <p className="text-[clamp(16px,2.34vw,38px)] font-normal text-center">
           Nhập môn Công nghệ số & TTNT{" "}
         </p>
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="flex flex-row items-center gap-2.5 hover:text-secondary transition-colors group"
         >
-          <p className="text-[clamp(18px,2.34vw,45px)] font-extrabold">
+          <p className="text-[clamp(18px,2.34vw,38px)] font-extrabold">
             LÊN ĐẦU TRANG
           </p>
         </button>
