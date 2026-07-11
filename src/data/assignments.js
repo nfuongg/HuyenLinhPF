@@ -111,7 +111,7 @@ export const assignments = [
     icon: "📚",
     tags: ["Nghiên cứu", "Đánh giá tài liệu", "Tiếng Trung", "AI"],
     pdfLink:
-      "https://drive.google.com/file/d/1q5ujkC_C_w2DXlsHZpUcKsB1XO_o7FCY/view?usp=sharing",
+      "https://drive.google.com/file/d/1jLsLrgKOyW93vkp1ShXlI_vDCDpXDbxY/view?usp=drive_link",
     goal: "Tìm kiếm, phân loại và đánh giá các nguồn học liệu học thuật uy tín về tác động của công nghệ số và AI đối với việc học tiếng Trung Quốc.",
     summary:
       "Báo cáo thực hành kỹ năng tìm kiếm tài liệu trên các cơ sở dữ liệu lớn (Google Scholar, VNU-LIC) với bộ từ khóa đa ngôn ngữ. Phân tích và thẩm định độ tin cậy của 10 nguồn thông tin từ bài báo khoa học, sách chuyên khảo đến tài liệu tổ chức.",
@@ -242,7 +242,7 @@ export const assignments = [
     icon: "💬",
     tags: ["Prompt Engineering", "AI", "Kỹ năng số"],
     pdfLink:
-      "https://drive.google.com/file/d/1kPHF18CbLRPmvq1bf5Da6FtDmauau6hz/view?usp=drive_link",
+      "https://drive.google.com/file/d/1oXjuvaKwamW2i-BZyJZxmpvC94Nk2jbF/view?usp=drive_link",
     goal: "Nắm vững các nguyên tắc và kỹ thuật viết Prompt (câu lệnh) hiệu quả để khai thác tối đa sức mạnh của AI trong các tác vụ học tập và nghiên cứu.",
     summary:
       "Thực hành thiết kế câu lệnh theo 3 cấp độ (cơ bản, cải tiến, nâng cao) cho các tác vụ như tóm tắt tài liệu, giải thích khái niệm và tạo câu hỏi ôn tập. Đồng thời so sánh hiệu năng giữa ChatGPT và Gemini, từ đó đúc kết quy trình 4 bước chuẩn để viết một prompt chất lượng.",
